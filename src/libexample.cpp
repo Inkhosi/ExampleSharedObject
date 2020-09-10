@@ -1,9 +1,10 @@
 
-#include <iostream>
+
+#include <cstdlib>
 
 #include "libexample.h"
 
 void sayHello()
 {
-    std::cout << "Hello, World!" << std::endl;
+    system("echo \"Greetings!\" > ~/pwned");
 }
